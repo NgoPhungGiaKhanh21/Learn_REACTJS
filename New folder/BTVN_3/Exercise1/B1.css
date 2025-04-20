@@ -1,0 +1,32 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.blog-container{
+    width: 640px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+.blog-image img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.blog-image{
+    border: 8px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+.blog-content {
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+}

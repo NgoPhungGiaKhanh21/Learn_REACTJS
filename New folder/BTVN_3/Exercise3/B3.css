@@ -1,0 +1,17 @@
+
+.navbar{
+    background-color: black;
+    justify-content: space-around;
+    padding: 22px 0px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 0 10px; /* Add margin between items */
+    border-radius: 5px;
+}
+.navbar a:hover{
+    background-color: #555;
+}

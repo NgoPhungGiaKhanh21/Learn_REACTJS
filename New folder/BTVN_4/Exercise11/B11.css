@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    margin: 50px 0;
+    background-color: #fefbd8;
+    border: 2px solid #e7c36b;
+}
+.logo{
+    background-color: #c4e17f;
+    margin-left: 60px;
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #a8c98e;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.brand-name{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.home-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    border: 2px solid #a0c23d; 
+    background-color: #e0f7e0; 
+}
+.home-label {
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bolder; 
+}
+.name {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 20px;
+}
