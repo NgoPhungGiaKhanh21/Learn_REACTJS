@@ -1,0 +1,12 @@
+p.center {
+    text-align: center; 
+    color: red;
+    }
+p.large {
+    font-size: 300%;
+    }
+#qtm1{
+    text-align: right;
+    color: red;
+    font-size: 200%;
+}
