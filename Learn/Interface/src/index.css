@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* src/index.css */
+:root {
+    --background: #ffffff;
+    --text-color: #000000;
+    --header-bg: #ffffff;
+    --link-color: #000000;
+    --link-hover: #f97316;
+    --button-bg: #f97316;
+    --button-text: #ffffff;
+    --icon-color: #4b5563;
+    transition: all 0.3s ease;
+  }
+  
+  [data-theme="dark"] {
+    --background: #1a1a1a;
+    --text-color: #ffffff;
+    --header-bg: #1a1a1a;
+    --link-color: #ffffff;
+    --link-hover: #fb923c;
+    --button-bg: #fb923c;
+    --button-text: #000000;
+    --icon-color: #d1d5db;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text-color);
+  }
+  
+  /* Các class cụ thể cho Header */
+  .header {
+    background-color: var(--header-bg);
+  }
+  
+  .header-link {
+    color: var(--link-color);
+  }
+  
+  .header-link:hover {
+    color: var(--link-hover);
+  }
+  
+  .order-button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+  }
+  
+  .icon {
+    color: var(--icon-color);
+  }
+  
+  .search-input {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    border: 1px solid var(--icon-color);
+  }
