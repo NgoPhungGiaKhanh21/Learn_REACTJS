@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f8e9c4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.left .logo{
+    display: flex;
+    align-items: center;
+}
+.left span{
+    padding: 10px 10px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+header .logo .circle{
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
+header .logo span{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header .a a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+    border: 5px solid aqua;
+    border-radius: 8px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+}
+.right .a{
+    padding: 20px 10px;
+}
+.right .a a:hover{
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+.right .cart{
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    display: flex;
+}
+.product-left {
+    width: 50%;
+}
+.img-large{
+    margin: 20px 50px;
+    border: 1px solid black;
+}
+.img-large img{
+    width: 100%;
+    height: 80vh;
+}
+.product1, .product2{
+    display: flex;
+}
+.product1 .product, .product2 .product{
+    border: 1px solid black;
+    margin: 20px 30px;
+}
+.product1 .product img, .product2 .product img{
+    width: 120px;
+    height: 18vh;
+}
+.product-right{
+    width: 50%;
+    margin-left: 50px;
+}
+.product-right h1{
+    font-size: 30px;
+    font-weight: bold; 
+    margin-top: 30px;
+}
+.product-right p{
+    width: 80%;
+    font-size: 20px;
+    margin: 50px 0;
+}
+.color h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.color .blue{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.blue:hover{
+    background-color: blue;
+}
+.color .red{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.red:hover{
+    background-color: red;
+}
+.color .green{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.green:hover{
+    background-color: green;
+}
+.design h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.design .classic {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.classic:hover{
+    background-color: aquamarine;
+}
+.design .mordern {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.mordern:hover{
+    background-color: aquamarine;
+}
+.price{
+    display: flex;
+    margin-top: 30px;
+}
+.price p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.prices{
+    color: blue;
+}
+.discount{
+    display: flex;
+}
+.discount p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.discounts{
+    color: red;
+}
+.rating p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.instocks{
+    display: flex;
+}
+.instocks p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.stock{
+    color: blue;
+}
+.add-to-cart{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.add-to-cart input{
+    width: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.add-to-cart .cart{
+    background-color: lightcoral;
+    border: 4px solid red;
+    padding: 10px 0;
+}
+.comments{
+    margin: 0 50px;
+}
+.comment .comment-header{
+    display: flex;
+}
+.comment .c{
+    display: flex;
+}
+.comment{
+    border: 1px solid black;
+    margin: 20px 0;
+}
+.comment-header .circle{
+    width: 50px;
+    height: 50px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.comment-header{
+    margin-left: 20px;
+}
+.comment-header span{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.start .stars{
+    margin-left: 800px;
+    color: yellow;
+}
+.comment  p{
+    margin-left: 20px;
+}
+.comment i{
+    margin-left: 20px;
+}
+.pagination{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.pagination p{
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background-color: #f8e9c4;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.shop-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-info{
+    margin-top: 10px;
+    display: flex;
+}
+.contact-info span{
+    display: block;
+    margin: 5px 10px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-left, .product-right{
+        width: 100%;
+        margin-left: 0;
+    }
+    .product1 .product, .product2 .product{
+        margin: 10px 15px;
+        width: 45%;
+    }
+    .img-large img{
+        height: 60vh;
+    }
+    .product-left{
+        padding: 0 10px;
+    }
+    .product-right h1{
+        font-size: 24px;
+    }
+    .color h3, .design h3{
+        font-size: 20px;
+    }
+    .color .blue, .color .red, .color .green,
+    .design .classic, .design .mordern{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .add-to-cart input{
+        width: 40px;
+        padding: 8px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pagination{
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left, .right{
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .right .cart{
+        margin-top: 10px;
+    }
+    .comment .comment-header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .comment .c{
+        justify-content: center;
+    }
+    .product1 .product, .product2 .product{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .pagination p{
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    .footer-container{
+        align-items: center;
+    }
+    .shop-name{
+        font-size: 20px;
+    }
+    .contact-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info span{
+        margin: 5px 0;
+    }
+}

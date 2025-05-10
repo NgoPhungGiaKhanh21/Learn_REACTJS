@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    background-color: lightgray;
+    height: 500px;
+    width: 600px;
+    border: 3px solid purple;
+    margin: auto;
+}
+
+.box {
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100px;
+    height: 50px;
+}
+
+.m1 {
+    background-color: olivedrab;
+    top: 150px;
+    left: 50px;
+}
+
+.m2 {
+    background-color: green;
+    top: 50px;
+    left: 230px;
+}
+
+.m3 {
+    background-color: dodgerblue;
+    top: 150px;
+    right: 40px;
+}
+
+.m4 {
+    background-color: firebrick;
+    bottom: 150px;
+    right: 40px;
+}
+
+.m5 {
+    background-color: deeppink;
+    bottom: 50px;
+    left: 230px;
+}
+
+.m6 {
+    background-color: royalblue;
+    bottom: 150px;
+    left: 50px;
+}
+
+.target {
+    position: absolute;
+    background-color: bisque;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 150px;
+    height: 50px;
+    top: 210px;
+    left: 225px;
+}

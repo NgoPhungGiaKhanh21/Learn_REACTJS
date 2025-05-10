@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f8e9c4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.left .logo{
+    display: flex;
+    align-items: center;
+}
+.left span{
+    padding: 10px 10px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+header .logo .circle{
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
+header .logo span{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header .a a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+    border: 5px solid aqua;
+    border-radius: 8px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+}
+.right .a{
+    padding: 20px 10px;
+}
+.right .a a:hover{
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+.right .cart1{
+    text-align: center;
+    padding: 10px;
+}
+.main-content{
+    margin-top: 30px;
+}
+.main-content h3{
+    margin-left: 50px;
+}
+.container{
+    display: flex;
+}
+.info{
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.payment{
+    width: 50%;
+    margin-right: 50px;
+    border: 1px solid black;
+}
+.input-container{
+    margin: 20px 50px;
+}
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-container input[type="text"],
+.input-container input[type="tel"]{
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.payment p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.option{
+    display: block;
+    border: 1px solid black;
+    width: 70vh;
+    height: 50px;
+    margin: 20px 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart-content{
+    margin-top: 50px;
+}
+.cart{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 30px 50px;
+}
+.cart-total{
+    display: flex;
+}
+.cart-content h3{
+    margin-left: 50px;
+}
+.cart-image{
+    display: flex;
+    margin: 30px 30px;
+}
+.cart-image img{
+    width: 100%;
+    height: 120px;
+}
+.cart-detail h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bu{
+    display: flex;
+}
+.bu p{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    background-color: aqua;
+    margin: 0 10px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.bu p:hover{
+    background-color: blueviolet;
+}
+.a{
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px;
+}
+.a input{
+    width: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.a .remove{
+    background-color: lightcoral;
+    border: 4px solid red;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+}
+.a .remove:hover{
+    background-color: yellow;
+}
+.cart-action p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit{
+    margin-left: 50px;
+    background-color: aquamarine;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.submit:hover{
+    background-color: aqua;
+}
+footer{
+    background-color: #f8e9c4;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.shop-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-info{
+    margin-top: 10px;
+    display: flex;
+}
+.contact-info span{
+    display: block;
+    margin: 5px 10px;
+}
+/* Responsive Styles */
+@media (max-width: 768px){
+    .info,
+    .payment{
+        width: 100%;
+        margin: 10px 0;
+    }
+    header .a a{
+        font-size: 16px;
+        margin: 0 10px;
+    }
+    .cart{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart-image img{
+        max-width: 200px; /* Smaller image size for mobile */
+    }
+    .cart-action{
+        text-align: center;
+    }
+
+    .submit{
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+@media (max-width: 480px){
+    header .logo span {
+        font-size: 18px;
+    }
+    header .a a{
+        font-size: 14px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .info,
+    .payment{
+        width: 100%;
+        margin: 0;
+    }
+    .cart-content{
+        margin-top: 30px;
+    }
+    .cart{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .cart-image img{
+        max-width: 150px; 
+    }
+    .cart-action{
+        text-align: center;
+    }
+    .submit{
+        width: 100%;
+        margin: 20px auto;
+    }
+}

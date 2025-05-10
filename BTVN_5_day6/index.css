@@ -1,0 +1,244 @@
+.left{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: #C19A6B;
+}
+.navbar-right {
+    list-style: none; 
+    display: flex; 
+}
+
+.navbar-item {
+    margin: 30px 15px; 
+    padding: 0px 30px;
+}
+
+.navbar-item a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-item a:hover {
+    color: white;
+    background-color: #C19A6B;
+    border: 10px solid #C19A6B;
+    border-radius: 8px;
+}
+.imglarge img{
+    width: 100%;
+    height: 70vh;
+}
+.introduction{
+    text-align: center;
+    margin-top: 100px;
+}
+.introduction h2{
+    color: #C19A6B;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.introduction .p1{
+    color: lightgrey;
+    font-size: 30px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+.introduction .p2{
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-bottom: 50px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    border: none;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card-title{
+    color: #C19A6B;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.card-text{
+    color: lightgray;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+.btn-card{
+    text-decoration: none;
+    background-color: #C19A6B;
+    color: white;
+    border: 8px solid #C19A6B;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.content{
+    margin-top: 50px;    
+}
+.content-left h3{
+    color: #C19A6B;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.content-left p{
+    color: lightgray;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content-left img{
+    width: 90%;
+    height: 300px;
+}
+.content-p p{
+    margin: 30px 0;
+}
+.btn-content{
+    text-decoration: none;
+    background-color: #C19A6B;
+    color: white;
+    border: 8px solid #C19A6B;
+    border-radius: 5px;
+}
+.c{
+    display: flex;
+}
+.c p{
+    color: blue;
+    text-decoration: underline;
+}
+.content2-c1 h4{
+    color: #C19A6B;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content2-c1{
+    margin-bottom: 30px;
+}
+.content2-c2{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.content2-c2 h4{
+    color: #C19A6B;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.post{
+    margin: 40px 0;
+}
+.post h4{
+    color: #C19A6B;
+}
+.content-img2{
+    display: flex;
+}
+.img1 img{
+    width: 100vh;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.para{
+    margin-left: 30px;
+    width: 100vh;
+}
+hr{
+    margin-top: 60px;
+}
+.content-img2 h3{
+    color: #C19A6B;
+}
+.content-img2 p{
+    color: lightgray;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    padding: 30px 30px;
+}
+.footer1{
+    width: 300px;
+    margin-right: 100px;
+}
+.footer1 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer1-content{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+}
+.footer1-content p{
+    padding: 10px 10px;
+}
+.footer1-content .p1{
+    color: black;
+    font-weight: bold;
+}
+.footer1 .p2{
+    margin-top: 200px;
+    color: white;
+}
+.footer2 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer2 p{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.footer3{
+    width: 300px;
+    margin-right: 100px;
+}
+.footer3 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer3 p{
+    margin-bottom: 30px;
+    color: lightgray;
+}
+.hr1{
+    margin-top: 30px;
+    color: white;
+}
+.btn1{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border: 10px solid gray;
+    border-radius: 5px;
+}
+.footer4 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer4 img{
+    width: 500px;
+    margin-bottom: 20px;
+}
+.footer4 p{
+    width: 500px;
+    color: lightgray;
+}
+.btn2{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border: 10px solid gray;
+    border-radius: 5px;
+}
